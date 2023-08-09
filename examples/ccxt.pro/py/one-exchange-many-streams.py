@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import asyncio #without this will have "NameError: name 'asyncio' is not defined "
 from asyncio import run
 import ccxt.pro
 
